@@ -4,6 +4,7 @@
 
 - You must make the settings for the I2C peripheral.
 - 1 millisecond Timer is required for the use of this library. This Timer is used for timeout and waiting time.
+- This library was made for the AT24C32D. But according to the EEPROM model you will use, you should edit the parts specified with EEPROM_PAGE_SIZE and EEPROM_TOTAL_SIZE in the EEPROM_AT24Series.h file.
 
 If you want to port to a different MCU, you can modify the "***EEPROM_24Series_Hardware.h***" file.
 
